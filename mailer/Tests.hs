@@ -53,9 +53,7 @@ resetPasswordBody = addNewline $ TL.fromStrict [text|
 
     Если вы запрашивали сброс пароля Shabitica, пройдите по ссылке
     https://example.org/.../reset-password-set-new-one?code=123456.
-    Ссылка актуальна в течение 24 часов.
-
-    Если вы этого не делали, игнорируйте данное сообщение.
+    Ссылка актуальна в течение 24 часов. Если вы этого не делали, игнорируйте данное сообщение.
     --$space
     Self-hosted Habitica instance at https://shabitica.example.org/
     Unsubscribe: https://shabitica.example.org/email/unsubscribe?code=1234
