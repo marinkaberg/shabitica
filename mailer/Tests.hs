@@ -228,7 +228,7 @@ main = hspec $ do
         let rendered = snd $ renderTxnMail commonTxnRecip resetPassword
 
         it "has correct subject" $
-            subject rendered `shouldBe` "Password Reset for Shabitica"
+            subject rendered `shouldBe` "Сброс пароля Shabitica"
         it "has correct body" $
             body rendered `shouldBe` resetPasswordBody
 
