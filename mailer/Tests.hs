@@ -51,11 +51,11 @@ resetPasswordBody :: TL.Text
 resetPasswordBody = addNewline $ TL.fromStrict [text|
     Hello lostone,
 
-    If you requested a password reset for Shabitica, head to
-    https://example.org/.../reset-password-set-new-one?code=123456 to set a
-    new one. The link will expire after 24 hours.
+    Если вы запрашивали сброс пароля Shabitica, пройдите по ссылке
+    https://example.org/.../reset-password-set-new-one?code=123456.
+    Ссылка актуальна в течение 24 часов.
 
-    If you haven't requested a password reset, please ignore this email.
+    Если вы этого не делали, игнорируйте данное сообщение.
     --$space
     Self-hosted Habitica instance at https://shabitica.example.org/
     Unsubscribe: https://shabitica.example.org/email/unsubscribe?code=1234
