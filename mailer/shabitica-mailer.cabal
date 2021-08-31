@@ -41,16 +41,3 @@ executable shabitica-mailer
                        wai == 3.*,
                        warp
   default-language:    Haskell2010
-
--- test-suite template-tests
---   ghc-options:         -Wall
---   main-is:             Tests.hs
---   type:                exitcode-stdio-1.0
---   build-depends:       aeson,
---                        base >= 4.11 && < 5,
---                        hspec,
---                        neat-interpolation,
---                        shabitica-mailer,
---                        text,
---                        unordered-containers
---   default-language:    Haskell2010
